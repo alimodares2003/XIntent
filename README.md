@@ -2,6 +2,7 @@
 easy start activity and pass data between two activity
 
 # How to use
+please read all comments
 
 ```kotlin
         //Simple start activity
