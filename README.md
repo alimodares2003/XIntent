@@ -1,8 +1,8 @@
 # XIntent
-easy start activity and pass data between two activity
+Easy start activity and pass data between two activity
 
 # How to use
-please read all comments
+Please read all comments
 
 ```kotlin
         //Simple start activity
