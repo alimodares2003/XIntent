@@ -1,6 +1,13 @@
 # XIntent
 Easy start activity and pass data between two activity
 
+# Installation
+```gradle
+maven { url 'https://jitpack.io' }
+
+implementation 'com.github.alimodares2003:FormView:1.0.1'
+```
+
 # How to use
 Please read all comments
 
