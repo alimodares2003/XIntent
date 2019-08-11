@@ -16,14 +16,14 @@ easy start activity and pass data between two activity
         //start activity with custom intent and finish activity
         goActivity(Intent(this, SecondActivity::class.java), true)
 
-        //start activity with pass data. you can pass any type of data like                     double,short,long,int,char,array,arraylist,bundle,Serializable,Parcalable and ...
+        //start activity with pass data. you can pass any type of data like double,short,long,int,char,array,arraylist,bundle,Serializable,Parcalable and ...
         goActivity(
             SecondActivity::class.java,
             arrayOf("name", "number", "login", "model"),//key name, must be arrayOf()
             "ali", 12345, true, MainModel("ali")//value
         )
 
-        //start activity with pass data and finish activity. you can pass any type of data like                     double,short,long,int,char,array,arraylist,bundle,Serializable,Parcalable and ...
+        //start activity with pass data and finish activity. you can pass any type of data like double,short,long,int,char,array,arraylist,bundle,Serializable,Parcalable and ...
         goActivity(
             SecondActivity::class.java,
             arrayOf("name", "number", "login", "model"),//key name, must be arrayOf()
