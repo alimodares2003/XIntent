@@ -5,7 +5,7 @@ Easy start activity and pass data between two activity
 ```gradle
 maven { url 'https://jitpack.io' }
 
-implementation 'com.github.alimodares2003:FormView:1.0.1'
+implementation 'com.github.alimodares2003:XIntent:1.0.0'
 ```
 
 # How to use
