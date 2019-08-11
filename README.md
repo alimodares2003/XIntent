@@ -3,7 +3,12 @@ Easy start activity and pass data between two activity
 
 # Installation
 ```gradle
-maven { url 'https://jitpack.io' }
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
 implementation 'com.github.alimodares2003:XIntent:1.0.0'
 ```
